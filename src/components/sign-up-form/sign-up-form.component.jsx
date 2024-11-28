@@ -33,8 +33,6 @@ const SignUpForm = () => {
         password
       );
 
-      console.log(user);
-
       await createUserDocumentFromAuth(user, { displayName });
       setFormsFields(defaultFormFields);
     } catch (error) {
