@@ -3,7 +3,7 @@ import {
   createUserDocumentFromAuth,
   onAuthStateChangedListener,
 } from "../utils/firebase/firebase.utils";
-import { signOut } from "firebase/auth";
+
 export const UserContext = createContext({
   currentUser: null,
   setCurrentUser: () => null,
