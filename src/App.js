@@ -4,7 +4,6 @@ import { Routes, Route } from "react-router-dom";
 
 import { getCurrentUser } from "./utils/firebase/firebase.utils";
 
-import Home from "./routes/home/home.component";
 import Navigation from "./routes/navigation/navigation.component";
 import Authentication from "./routes/authentication/authentication.component";
 import CheckoutComponent from "./routes/checkout/checkout.component";
